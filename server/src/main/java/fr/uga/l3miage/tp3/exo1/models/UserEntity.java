@@ -1,4 +1,4 @@
-package fr.uga.l3miage.tp3.exo1.models;
+﻿package fr.uga.l3miage.tp3.exo1.models;
 
 import lombok.*;
 
@@ -24,4 +24,5 @@ public class UserEntity {
     @OneToMany
     @JoinColumn(name = "name")
     private Set<PlaylistEntity> playlistEntities;
+
 }
