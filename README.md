@@ -1,5 +1,5 @@
 # TP3
 
-⚠️ Vous trouverez les exo dans les branches de ce repo git
+Binôme : Alessandro Farina
 
-![good_luck](https://tenor.com/bPqYN.gif)
+Lien github : https://github.com/l3miage-farinaa
