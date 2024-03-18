@@ -35,4 +35,8 @@ public class UserComponent {
     public void deleteUser(String name){
         userRepository.deleteById(name);
     }
+
+    public Set<UserEntity> getUserIsDomain(String domaine){
+        return userRepository.findAllByMailContaining(domaine);
+    }
 }
